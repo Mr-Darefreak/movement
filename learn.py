@@ -20,13 +20,13 @@ while game_over==False:
             game_over=True
         if event.type==pygame.KEYDOWN:
             if event.key==pygame.K_LEFT:
-                change_x=0.5
+                change_x=0.6
             if event.key==pygame.K_RIGHT:
-                change_x=-0.5
+                change_x=-0.6
             if event.key==pygame.K_UP:
-                change_y=0.5
+                change_y=0.6
             if event.key==pygame.K_DOWN:
-                change_y=-0.5
+                change_y=-0.6
     bg.fill(black)
 
     x=x-change_x
